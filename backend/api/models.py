@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 # Create your models here.
 
 class Message(models.Model):
-    user = models.ForeignKey(User, on_delete = models.CASCADE, related_name='user')
+    user = models.ForeignKey(User, on_delete = models.CASCADE, related_name='messages')
     email = models.EmailField(max_length=100)
     message = models.TextField()
     time = models.DateTimeField(auto_now_add=True)
