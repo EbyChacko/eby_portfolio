@@ -10,4 +10,4 @@ class Message(models.Model):
     time = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.email
+        return f'{self.email}, {self.message}'
