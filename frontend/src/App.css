@@ -58,6 +58,7 @@ img {
   height: auto;
 }
 
+
 button {
   border: 0;
   background-color: transparent;
@@ -615,4 +616,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+
+.logo {
+  max-width: 150px !important;
+  height:auto;
 }

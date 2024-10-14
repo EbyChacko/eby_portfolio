@@ -1,12 +1,12 @@
-// import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar } from "frontend/src/components/NavBar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavBar } from "./components/NavBar"
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <NavBar/>
     </div>
   );
 }
