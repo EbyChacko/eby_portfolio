@@ -31,7 +31,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: #01312f !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -51,6 +51,7 @@ p, a, li, button, ul {
 
 a:hover {
   text-decoration: none;
+  color:#88ffc8 !important;
 }
 
 img {
@@ -58,10 +59,36 @@ img {
   height: auto;
 }
 
+.home_img {
+  max-width: 350px;
+  height:auto;
+  border-radius: 50%;
+}
+
+.cursor {
+  display: inline-block;
+  width: 2px; 
+  height: 1em; 
+  background-color: black; 
+  animation: blink 1s step-start infinite; 
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
 
 button {
   border: 0;
   background-color: transparent;
+}
+
+.connect_btn {
+  padding : 15px;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #09545b, #83ddb3);
 }
 
 input:focus, textarea:focus, select:focus {
@@ -616,10 +643,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
-}
-
-
-.logo {
-  max-width: 150px !important;
-  height:auto;
 }
