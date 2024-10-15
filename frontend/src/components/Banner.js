@@ -49,13 +49,13 @@ export const Banner = () => {
         <section className="banner" id="home">
             <Container>
                 <Row className='Align-items-center'>
-                    <Col xs={12} md={6} xl={5}>
+                    <Col xs={12} md={6} xl={5} className="d-flex justify-content-center align-items-center">
                     <img src={my_photo} className="home_img mb-5" alt="my_photo"></img>
                     </Col>
                     <Col xs={12} md={6} xl={7}>
                     <h2></h2>
                     <h2>Hey, I'M </h2>
-                    <h1><span style={{ color: "#83ddb3" }}> EBY CHACKO</span></h1>
+                    <h1><span style={{ color: "#b675e8" }}> EBY CHACKO</span></h1>
                     <h2 className="wrap">{text} <span className="cursor">|</span></h2>
                     <button className="connect_btn" onClick={() => console.log('Connect')}>Let's Connect<ArrowRightCircle size={25}></ArrowRightCircle></button>
                     </Col>

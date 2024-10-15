@@ -31,7 +31,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #01312f !important;
+  background-color: #0b0635 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -88,8 +88,9 @@ button {
 .connect_btn {
   padding : 15px;
   border-radius: 25px;
-  background-image: linear-gradient(to right, #09545b, #83ddb3);
+  background-image: linear-gradient(to right, #2f0753, #b510df);
 }
+
 
 input:focus, textarea:focus, select:focus {
   outline: none;
@@ -310,20 +311,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
-  animation: updown 3s linear infinite;
-}
-@keyframes updown {
-    0% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
-}
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
@@ -334,7 +321,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #27124b;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
