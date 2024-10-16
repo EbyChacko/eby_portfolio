@@ -1,4 +1,4 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import fly_img from '../assets/img/projects/fly_img.webp';
 import truecare_img from '../assets/img/projects/Truecare_img.webp';
@@ -53,7 +53,7 @@ export const Projects = () => {
         },
     ];
     return (
-        <section className='project' id='project'>
+        <section className='project' id='projects'>
             <Container>
                 <Row>
                 <Col size={12}>
