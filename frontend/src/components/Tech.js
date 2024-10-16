@@ -30,11 +30,11 @@ export const Tech = () => {
                          <div className="container">
                             <div className="row justify-content-center">
                             {logos.map((logo, index) => (
-                                <div key={index} className="col-4 col-sm-4 col-md-3 col-lg-2 my-3">
+                                <div key={index} className="col-6 col-md-3 col-lg-2 my-3">
                                 <img
                                     src={logo}
                                     alt={`Logo ${index + 1}`}
-                                    style={{ maxWidth: "100%", height: "auto" }}
+                                    style={{ maxWidth: "70%", height: "auto" }}
                                     className="img-fluid logo-img"
                                 />
                                 </div>
