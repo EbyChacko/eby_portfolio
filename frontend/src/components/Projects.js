@@ -56,13 +56,10 @@ export const Projects = () => {
         <section className='project' id='projects'>
             <Container>
                 <Row>
-                <Col size={12}>
-                    <div >
-                        <h2>PROJECTS</h2>
-                        <p>Throughout my development journey, I’ve built several projects that demonstrate my skills in full-stack development. Each project reflects my ability to integrate back-end logic with dynamic front-end interfaces, delivering seamless and user-friendly experiences.</p>
-                        <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                        <Tab.Content id="slideInUp" >
-                            <Tab.Pane eventKey="first">
+                    <Col size={12}>
+                        <div >
+                            <h2>PROJECTS</h2>
+                            <p>Throughout my development journey, I’ve built several projects that demonstrate my skills in full-stack development. Each project reflects my ability to integrate back-end logic with dynamic front-end interfaces, delivering seamless and user-friendly experiences.</p>
                             <Row className="row justify-content-center">
                                 {
                                 projects.map((project, index) => {
@@ -75,11 +72,8 @@ export const Projects = () => {
                                 })
                                 }
                             </Row>
-                            </Tab.Pane>
-                        </Tab.Content>
-                        </Tab.Container>
-                    </div>
-                </Col>
+                        </div>
+                    </Col>
                 </Row>
             </Container>
             <img className="background-image-right" src={colorSharp2}></img>

@@ -85,13 +85,6 @@ button {
   background-color: transparent;
 }
 
-.connect_btn {
-  padding : 15px;
-  border-radius: 25px;
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-}
-
-
 input:focus, textarea:focus, select:focus {
   outline: none;
 }
@@ -104,17 +97,16 @@ input:focus, textarea:focus, select:focus {
 }
 
 p.success {
-	color: green;
+	color: rgb(68, 255, 68);
 }
 
 p.danger {
-	color: red;
+	color: rgb(254, 97, 97);
 }
 /************ Navbar Css ************/
 .logo {
   background: linear-gradient(to right, #ea00ff, #6c00f9); 
-  -webkit-background-clip: text; 
-  padding: 0;
+  -webkit-background-clip: text;
   color: transparent;
 }
   
@@ -300,37 +292,51 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
-  font-size: 18px;
-  letter-spacing: 0.8px;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0.8px;  
   line-height: 1.5em;
-  width: 96%;
+  font-weight: 100;
 }
-.banner button {
+
+.connect_btn {
+  margin-top: 35px;
+  text-decoration: none;
+  color: #e8fff4;
+  padding : 15px;
+  border-radius: 25px;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+}
+
+.banner a {
   color: #fff;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   margin-top: 60px;
   letter-spacing: 0.8px;
-  display: flex;
-  align-items: center;
 }
-.banner button svg {
+.banner a svg {
   font-size: 25px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
 }
-.banner button:hover svg {
+.banner a:hover svg {
   margin-left: 25px;
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
 
+
+.banner_para {
+  padding: 25px 0;
+}
+
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  margin-top:30px;
+  padding: 50px 0 50px 0;
   position: relative;
 }
 .skill-bx {
