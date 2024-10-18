@@ -30,9 +30,9 @@ SECRET_KEY = 'django-insecure-zhq)_v!__kg9h!@7c07a90pm41ekavsvcan)jh9xag_ww9gf3y
 # SECURITY WARNING: don't run with debug turned on in production!
 import os
 
-DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+DEBUG = 'True'
 
-ALLOWED_HOSTS = ['eby-portfolio-f156153d6734.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['eby-portfolio-f156153d6734.herokuapp.com', 'localhost', '127.0.0.1']
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_URL = '/static/'
