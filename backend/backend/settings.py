@@ -32,7 +32,7 @@ import os
 
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['eby-portfolio.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['eby-portfolio-f156153d6734.herokuapp.com', 'localhost']
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_URL = '/static/'
