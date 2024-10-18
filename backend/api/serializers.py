@@ -16,5 +16,4 @@ class UserSerializer(serializers.ModelSerializer):
 class MessageSerializer(serializers.ModelSerializer):
     class Meta:
         model = Message
-        fields = ['id', 'user', 'email', 'message', 'time',]
-        extra_kwargs = {'user' : {"read_only": True}}
+        fields = ['id', 'name', 'email', 'message', 'time',]
