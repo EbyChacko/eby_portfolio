@@ -1,1 +1,1 @@
-web: gunicorn eby_portfolio.wsgi
+web: gunicorn backend.wsgi
